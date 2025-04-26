@@ -4,38 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>My Portfolio</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#atcoder">AtCoder</a>
-            <a href="#kaggle">Kaggle</a>
-            <a href="#contact">Contact</a>
-        </nav>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm currently studying competitive programming and data science. 🚀</p>
-    </section>
+    <main class="card-container">
+        <a class="card" href="about.html">
+            <h2>About Me</h2>
+            <p>自己紹介はこちら</p>
+        </a>
 
-    <section id="atcoder">
-        <h2>AtCoder Record</h2>
-        <p>Coming soon!</p>
-    </section>
+        <a class="card" href="atcoder.html">
+            <h2>AtCoder</h2>
+            <p>コンペ記録まとめ</p>
+        </a>
 
-    <section id="kaggle">
-        <h2>Kaggle Competitions</h2>
-        <p>Coming soon!</p>
-    </section>
+        <a class="card" href="kaggle.html">
+            <h2>Kaggle</h2>
+            <p>データ分析コンペ実績</p>
+        </a>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>You can find me on GitHub: <a href="https://github.com/Oka1590" target="_blank">GitHub Profile</a></p>
-    </section>
+        <a class="card" href="learning.html">
+            <h2>Learning Log</h2>
+            <p>日々の勉強ログ</p>
+        </a>
+
+        <a class="card" href="projects.html">
+            <h2>Projects</h2>
+            <p>GitHubプロジェクト紹介</p>
+        </a>
+    </main>
 
     <footer>
         <p>© 2025 My Portfolio</p>
